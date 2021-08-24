@@ -14,6 +14,7 @@ Locations
 Track 
 
 Ahora, se utilizará el script2 para hacer una búsqueda por palabra clave o también llamada “track” para después almacenar esos datos en CouchDB. 
+
 ![image](https://user-images.githubusercontent.com/66692550/130687424-04c8a815-9c7a-41dd-a954-314e903df95d.png)
 
 
