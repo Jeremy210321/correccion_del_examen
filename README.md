@@ -38,17 +38,21 @@ El mismo proceso se realiza para el juegosolimpicos.csv, estos datos se encuentr
 ![image](https://user-images.githubusercontent.com/66692550/130687692-adb64504-1732-497c-810d-620a74c57edf.png)
 
 Se transfiere los datos recopilados en MySQL hacia MongoDB para esto se deben exportar los datos de ambas bases, “juegos_olimpicos” y “juegosolimpicos” para importarlos a Mongo DB Compass. 
+
 ![image](https://user-images.githubusercontent.com/66692550/130689141-696acdee-fbbf-4786-b392-1d824cbdbc87.png)
 
 ![image](https://user-images.githubusercontent.com/66692550/130689172-36e6d0a9-fe8a-4cd6-83b8-d2f49dd48971.png)
 
 Los dos datasets se encuentran en MongoDB en la base de datos llamada MySQL_MongoDB en la colección “juegosolimpicos” 
+
 ![image](https://user-images.githubusercontent.com/66656757/130689919-ecb487a4-62ba-4726-adae-ffc11cbd7106.png)
 
 Prosigue, la exportación de los dos datasets (“ciudades” y “olímpicos”) de twitter que se encuentran en CouchDB. 
+
 ![image](https://user-images.githubusercontent.com/66656757/130702819-6bd7b031-daa7-467f-ba52-bd3ec7a37821.png)
 
 Esto se puede evidenciar con la herramienta Sublime
+
 ![image](https://user-images.githubusercontent.com/66656757/130702852-4b3c25ff-ea57-42c5-ab4e-8ef913718bb2.png)
 
 
