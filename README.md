@@ -7,7 +7,7 @@
 
 Para obtener las locaciones de las ciudades, se utilizó la herramienta en la web [Bounding Box](http://boundingbox.klokantech.com/) y el script1 para pasar la información obtenida a CouchDB. Los datos se ven en la BDD de Couch. 
 
-Locations (1.py) 
+Locations 
 
 ![image](https://user-images.githubusercontent.com/66692550/130687394-cd01bff1-fb3c-4469-bb3f-7ee6ae586538.png)
 
