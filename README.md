@@ -5,7 +5,7 @@
 ##### *[León Jeremy](https://github.com/Jeremy210321)*
 
 
-Para obtener las locaciones de las ciudades, se utilizó la herramienta en la web [Bounding Box](http://boundingbox.klokantech.com/) y el script1 para pasar la información obtenida a CouchDB. Los datos se ven en la BDD de Couch. 
+Para obtener las locaciones de las ciudades, se utilizó la herramienta en la web [Bounding Box](http://boundingbox.klokantech.com/) y el [script1](https://github.com/Jeremy210321/correccion_del_examen/blob/master/script1.ipynb) para pasar la información obtenida a CouchDB. Los datos se ven en la BDD de Couch. 
 
 Locations 
 
@@ -13,20 +13,20 @@ Locations
 
 Track 
 
-Ahora, se utilizará el script2 para hacer una búsqueda por palabra clave o también llamada “track” para después almacenar esos datos en CouchDB. 
+Ahora, se utilizará el [script2](https://github.com/Jeremy210321/correccion_del_examen/blob/master/script2.ipynb) para hacer una búsqueda por palabra clave o también llamada “track” para después almacenar esos datos en CouchDB. 
 
 ![image](https://user-images.githubusercontent.com/66692550/130687424-04c8a815-9c7a-41dd-a954-314e903df95d.png)
 
 
-Se implementa el script3 para webScraping desde una página sobre juegos olímpicos obteniendo así un documento con extensión  .json. Luego de ellos almacenamos los datos en Mongo Compass en una base de datos “olímpicos” 
+Se implementa el [script3](https://github.com/Jeremy210321/correccion_del_examen/blob/master/script3.ipynb) para webScraping desde una página sobre juegos olímpicos obteniendo así un documento con extensión  .json. Luego de ellos almacenamos los datos en Mongo Compass en una base de datos “olímpicos” 
 
 ![image](https://user-images.githubusercontent.com/66692550/130687462-04067715-4af7-45e4-b066-a55f77723321.png)
 
-Se utiliza el script4 en Python para recopilar datos de Facebook, se hace uso del Facebook-scraper para encontrar datos específicos y se los guarda en una colección. Los datos recopilados se los pasa a la base de datos local “olimpicosfacebook” de MongoDB Compass. 
+Se utiliza el [script4](https://github.com/Jeremy210321/correccion_del_examen/blob/master/script4.ipynb) en Python para recopilar datos de Facebook, se hace uso del Facebook-scraper para encontrar datos específicos y se los guarda en una colección. Los datos recopilados se los pasa a la base de datos local “olimpicosfacebook” de MongoDB Compass. 
 
 ![image](https://user-images.githubusercontent.com/66692550/130687583-da73f890-85f5-40c9-ac6b-b67f12406e5d.png)
 
-Se usa el tiktok-scraper para recopilar datos en csv de tiktokers con temática de los juegos olímpicos. Se recolectan de dos tiktoks; “juegos_olimpicos_”, “juegosolimpicos” , utilizando los comandos declarados en el 5.txt 
+Se usa el tiktok-scraper para recopilar datos en csv de tiktokers con temática de los juegos olímpicos. Se recolectan de dos tiktoks; “juegos_olimpicos_”, “juegosolimpicos” , utilizando los comandos declarados en el [5.txt](https://github.com/Jeremy210321/correccion_del_examen/blob/master/5.txt) 
 
 ![image](https://user-images.githubusercontent.com/66692550/130687628-50810749-7479-4eea-9b35-92b180b87691.png)
 
@@ -76,11 +76,25 @@ A continuación, se muestra el proceso de creación del clúster:
 Se creó el enlace desde MongoAtlas para establecer la conexión con MongoCompass:
 ![image](https://user-images.githubusercontent.com/66534512/130699632-1ad08d40-b26c-4dcd-82f0-0fc34c400f86.png)
 
-Mediante el uso del script 8 se pasaron los datos de MongoCompass a MongoAtlas.
+Mediante el uso del [script 8](https://github.com/Jeremy210321/correccion_del_examen/blob/master/script8.ipynb) se pasaron los datos de MongoCompass a MongoAtlas.
 
 Aquí se evidencia este proceso:
 Datos de MongoCompass
+
 ![image](https://user-images.githubusercontent.com/66534512/130699767-06069f37-dcee-42be-a3ac-06e3da79f35e.png)
 
 Datos de MongoAtlas
 
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/66692550/130703680-b3df8ce1-8d5f-4a1a-8885-10f084262843.png)
+
+Se verificaron los datos dentro de la colección y la base de datos asignada:
+
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/66692550/130703756-7e925114-b5e0-4502-9df7-7768092f651c.png)
+
+Ahora se procede a exportar la colección "coleccion_mongo" en archivos '.json' y '.csv'
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/66692550/130703828-8edfaa2d-1655-4dc1-a357-6c2ada995e1e.png)
+![MicrosoftTeams-image (1)](https://user-images.githubusercontent.com/66692550/130703835-8d47e2bb-6cf8-459a-b0b4-121a9b11705c.png)
+
+Para finalizar, comprobamos la correcta exportación de la colección en nuestro computador, los mismos que se evidencian en [mongo_correccionJSON](https://github.com/Jeremy210321/correccion_del_examen/blob/master/mongo_correccionJSON.json) [mongo_correccionCSV](https://github.com/Jeremy210321/correccion_del_examen/blob/master/mongo_correccionCSV.csv).
+
+![MicrosoftTeams-image (2)](https://user-images.githubusercontent.com/66692550/130703874-c0fe07a7-51cc-4665-906e-3ee5ad555f87.png)
