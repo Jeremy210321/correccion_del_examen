@@ -56,6 +56,10 @@ Esto se puede evidenciar con la herramienta Sublime
 
 ![image](https://user-images.githubusercontent.com/66656757/130702852-4b3c25ff-ea57-42c5-ab4e-8ef913718bb2.png)
 
+Por último, se muestra la importación de los archivos bajados de CouchDB a MongoCompass:
+
+![image](https://user-images.githubusercontent.com/66534512/130704110-563a3e28-5867-4ad1-a357-a76b6e35c18c.png)
+
 
 Para realizar la conexión de MongoCompass a MongoAtlas se hizo lo siguiente.
 
