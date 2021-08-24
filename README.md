@@ -14,6 +14,7 @@ Locations (1.py)
 Track 
 
 Ahora, se utilizará el [script2](https://github.com/Jeremy210321/correccion_del_examen/blob/master/script2.ipynb) para hacer una búsqueda por palabra clave o también llamada “track” para después almacenar esos datos en CouchDB. 
+
 ![image](https://user-images.githubusercontent.com/66692550/130687424-04c8a815-9c7a-41dd-a954-314e903df95d.png)
 
 
@@ -43,6 +44,7 @@ Se transfiere los datos recopilados en MySQL hacia MongoDB para esto se deben ex
 ![image](https://user-images.githubusercontent.com/66692550/130689172-36e6d0a9-fe8a-4cd6-83b8-d2f49dd48971.png)
 
 Los dos datasets se encuentran en MongoDB en la base de datos llamada MySQL_MongoDB en la colección “juegosolimpicos” 
+
 ![image](https://user-images.githubusercontent.com/66656757/130689919-ecb487a4-62ba-4726-adae-ffc11cbd7106.png)
 
 
@@ -50,16 +52,20 @@ Los dos datasets se encuentran en MongoDB en la base de datos llamada MySQL_Mong
 Para realizar la conexión de MongoCompass a MongoAtlas se hizo lo siguiente.
 
 Primero, se ingresa a MongoAtlas mediante una cuenta de google y se crea un nuevo proyecto:
+
 ![image](https://user-images.githubusercontent.com/66534512/130698692-2348b1f3-57b3-4835-8abf-e1d24c30181c.png)
 
 Luego, la plataforma online da la opción de agregar los miembros del proyecto:
+
 ![image](https://user-images.githubusercontent.com/66534512/130698786-24af8f0a-0474-4afa-ba7c-ca07f95dc632.png)
 
 Después de crear el proyecto, se procede a crear una base de datos de forma gratuita:
+
 ![image](https://user-images.githubusercontent.com/66534512/130698875-91e9855b-2c13-4d81-a5b6-8d6ba00a618a.png)
 
 ![image](https://user-images.githubusercontent.com/66534512/130698891-55a8e0d5-67c2-4114-a1d7-9e4ad70ee2ad.png)
 
 A continuación, se muestra el proceso de creación del clúster:
+
 ![image](https://user-images.githubusercontent.com/66534512/130698984-10ac27a2-ffc3-46bf-a9fb-c96ad43b85c8.png)
 
