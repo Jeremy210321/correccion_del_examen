@@ -43,3 +43,5 @@ Se transfiere los datos recopilados en MySQL hacia MongoDB para esto se deben ex
 ![image](https://user-images.githubusercontent.com/66692550/130689172-36e6d0a9-fe8a-4cd6-83b8-d2f49dd48971.png)
 
 Los dos datasets se encuentran en MongoDB en la base de datos llamada MySQL_MongoDB en la colección “juegosolimpicos” 
+![image](https://user-images.githubusercontent.com/66656757/130689919-ecb487a4-62ba-4726-adae-ffc11cbd7106.png)
+
