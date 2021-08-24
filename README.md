@@ -45,6 +45,11 @@ Se transfiere los datos recopilados en MySQL hacia MongoDB para esto se deben ex
 Los dos datasets se encuentran en MongoDB en la base de datos llamada MySQL_MongoDB en la colección “juegosolimpicos” 
 ![image](https://user-images.githubusercontent.com/66656757/130689919-ecb487a4-62ba-4726-adae-ffc11cbd7106.png)
 
+Prosigue, la exportación de los dos datasets (“ciudades” y “olímpicos”) de twitter que se encuentran en CouchDB. 
+![image](https://user-images.githubusercontent.com/66656757/130702819-6bd7b031-daa7-467f-ba52-bd3ec7a37821.png)
+
+Esto se puede evidenciar con la herramienta Sublime
+![image](https://user-images.githubusercontent.com/66656757/130702852-4b3c25ff-ea57-42c5-ab4e-8ef913718bb2.png)
 
 
 Para realizar la conexión de MongoCompass a MongoAtlas se hizo lo siguiente.
