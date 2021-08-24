@@ -95,6 +95,6 @@ Ahora se procede a exportar la colección "coleccion_mongo" en archivos '.json' 
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/66692550/130703828-8edfaa2d-1655-4dc1-a357-6c2ada995e1e.png)
 ![MicrosoftTeams-image (1)](https://user-images.githubusercontent.com/66692550/130703835-8d47e2bb-6cf8-459a-b0b4-121a9b11705c.png)
 
-Para finalizar, comprobamos la correcta exportación de la colección en nuestro computador, los mismos que se evidencian en [mongo_correccionJSON](https://github.com/Jeremy210321/correccion_del_examen/blob/master/mongo_correccionJSON.json) [mongo_correccionCSV](https://github.com/Jeremy210321/correccion_del_examen/blob/master/mongo_correccionCSV.csv).
+Para finalizar, comprobamos la correcta exportación de la colección en nuestro computador, los mismos que se evidencian en [mongo_correccionJSON](https://github.com/Jeremy210321/correccion_del_examen/blob/master/mongo_correccionJSON.json), [mongo_correccionCSV](https://github.com/Jeremy210321/correccion_del_examen/blob/master/mongo_correccionCSV.csv).
 
 ![MicrosoftTeams-image (2)](https://user-images.githubusercontent.com/66692550/130703874-c0fe07a7-51cc-4665-906e-3ee5ad555f87.png)
