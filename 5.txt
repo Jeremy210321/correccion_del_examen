@@ -1,0 +1,4 @@
+npm i -g tiktok-scraper
+tiktok-scraper user juegos_olimpicos_ -t json
+tiktok-scraper user juegos_olimpicos_ -t csv
+tiktok-scraper user juegosolimpicos -t csv
