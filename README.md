@@ -5,7 +5,7 @@
 ##### *[León Jeremy](https://github.com/Jeremy210321)*
 
 
-Para obtener las locaciones de las ciudades, se utilizó la herramienta en la web [Bounding Box](http://boundingbox.klokantech.com/) y el script1 para pasar la información obtenida a CouchDB. Los datos se ven en la BDD de Couch. 
+Para obtener las locaciones de las ciudades, se utilizó la herramienta en la web [Bounding Box](http://boundingbox.klokantech.com/) y el [script1](https://github.com/Jeremy210321/correccion_del_examen/blob/master/script1.ipynb) para pasar la información obtenida a CouchDB. Los datos se ven en la BDD de Couch. 
 
 Locations (1.py) 
 
@@ -13,19 +13,19 @@ Locations (1.py)
 
 Track 
 
-Ahora, se utilizará el script2 para hacer una búsqueda por palabra clave o también llamada “track” para después almacenar esos datos en CouchDB. 
+Ahora, se utilizará el [script2](https://github.com/Jeremy210321/correccion_del_examen/blob/master/script2.ipynb) para hacer una búsqueda por palabra clave o también llamada “track” para después almacenar esos datos en CouchDB. 
 ![image](https://user-images.githubusercontent.com/66692550/130687424-04c8a815-9c7a-41dd-a954-314e903df95d.png)
 
 
-Se implementa el script3 para webScraping desde una página sobre juegos olímpicos obteniendo así un documento con extensión  .json. Luego de ellos almacenamos los datos en Mongo Compass en una base de datos “olímpicos” 
+Se implementa el [script3](https://github.com/Jeremy210321/correccion_del_examen/blob/master/script3.ipynb) para webScraping desde una página sobre juegos olímpicos obteniendo así un documento con extensión  .json. Luego de ellos almacenamos los datos en Mongo Compass en una base de datos “olímpicos” 
 
 ![image](https://user-images.githubusercontent.com/66692550/130687462-04067715-4af7-45e4-b066-a55f77723321.png)
 
-Se utiliza el script4 en Python para recopilar datos de Facebook, se hace uso del Facebook-scraper para encontrar datos específicos y se los guarda en una colección. Los datos recopilados se los pasa a la base de datos local “olimpicosfacebook” de MongoDB Compass. 
+Se utiliza el [script4](https://github.com/Jeremy210321/correccion_del_examen/blob/master/script4.ipynb) en Python para recopilar datos de Facebook, se hace uso del Facebook-scraper para encontrar datos específicos y se los guarda en una colección. Los datos recopilados se los pasa a la base de datos local “olimpicosfacebook” de MongoDB Compass. 
 
 ![image](https://user-images.githubusercontent.com/66692550/130687583-da73f890-85f5-40c9-ac6b-b67f12406e5d.png)
 
-Se usa el tiktok-scraper para recopilar datos en csv de tiktokers con temática de los juegos olímpicos. Se recolectan de dos tiktoks; “juegos_olimpicos_”, “juegosolimpicos” , utilizando los comandos declarados en el 5.txt 
+Se usa el tiktok-scraper para recopilar datos en csv de tiktokers con temática de los juegos olímpicos. Se recolectan de dos tiktoks; “juegos_olimpicos_”, “juegosolimpicos” , utilizando los comandos declarados en el [5.txt](https://github.com/Jeremy210321/correccion_del_examen/blob/master/5.txt) 
 
 ![image](https://user-images.githubusercontent.com/66692550/130687628-50810749-7479-4eea-9b35-92b180b87691.png)
 
